@@ -1,3 +1,12 @@
+/* embeded fonts */
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 
 .merriweather-font {
   font-family: "Merriweather", serif;
@@ -6,6 +15,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 
 /* universal style */
 *{
@@ -53,4 +63,47 @@ header
     line-height: 95px;
     letter-spacing: 0%;
     color: white;
+}
+
+/* discount section */
+.discount
+{
+    width: 882px;
+    height: 886px;
+    margin: 120px auto;
+}
+
+.discount-content-offer
+{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.discount-content-subtittle
+{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.discount-content-tittle
+{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
 }
