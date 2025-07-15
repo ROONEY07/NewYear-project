@@ -217,3 +217,98 @@ header
     background: rgb(255, 0, 0);
     border: none;
 }
+
+
+/* new year content */
+.new-offer
+{
+    width: 1320px;
+    height: 463px;
+    margin-top: 120px;
+    display: flex;
+
+    /* justify-content: center; */
+    /* align-items: center; */ 
+    
+
+}
+
+.outer-circle {
+       width: 463px;
+       height: 463px;  
+       box-sizing: border-box;
+       border: 15px solid rgb(255, 0, 0);
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.new-offer-content
+{
+    width: 393px;
+    height: 255px;
+    margin-right: 70px;
+    text-align: left;
+}
+
+/* .new-offer-content2
+{
+    margin-right: 118px;
+} */
+
+.new-offer-content-subtittle
+{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.new-offer-content-tittle
+{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.new-offer-content-description
+{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.new-offer-date
+{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.new-offer-description
+{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
