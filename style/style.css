@@ -327,3 +327,85 @@ header
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* holidays sell section */
+.holidays-sell
+{
+    width: 1320px;
+    height: 986px;
+    /* background-color: aqua;   */
+    margin: 120px auto;
+}
+
+.holidays-sell-content
+{
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+.holidays-sell-content-subtittle
+{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.holidays-sell-content-tittle
+{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+#HOL
+{
+    color: red;
+}
+
+.holidays-sell-content-describtion
+{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.gift-img
+{
+    display: flex;
+    justify-content: end;
+
+}
+.footer-img
+{
+    background-image: url("../images/Rectangle\ 2.png");
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    bottom: -3950px;
+}
+
+.gift
+{
+    position: absolute;
+    bottom: -35px;
+}
+
+.offer
+{
+    position: absolute;
+    left: 1080px;
+    top: 4080px;
+}
