@@ -409,3 +409,56 @@ header
     left: 1080px;
     top: 4080px;
 }
+
+/* best gift section */
+.best-gift
+{
+    width: 1320px;
+    height: 1163px;
+    /* background-color:aqua; */
+    margin: 0 auto;
+}
+
+.best-gift-content-subtittle
+{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.best-gift-content-tittle
+{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.best-gift-content-describtion
+{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.best-gift-item
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
